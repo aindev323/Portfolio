@@ -1,0 +1,152 @@
+@use "../../styles/mixins" as *;
+
+.contact{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: transparent; 
+  .container{
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: max-width 0.3s ease;
+    .title{
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-top: 0;
+      margin-bottom: 12px;
+      color: #ffffff;
+      width: 100%;
+    }
+    .desc{
+      font-size: 1.05rem;
+      opacity: 0.7;
+      margin-bottom: 40px;
+      width: 100%;
+    }
+    .card{
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 30px;
+      background: rgba(47, 47, 138, 0.6);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 30px; 
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      transition: all 0.3s ease;
+      &::before{
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(
+          circle at top left,
+          rgba(168, 85, 247, 0.2),
+          transparent 60%
+        );
+        pointer-events: none;
+      }
+      .info{
+        text-align: left;
+        width: 100%;
+        h3{
+          font-size: 22px;
+          margin-bottom: 20px;
+        }
+        ul{
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          margin-bottom: 30px;
+          padding: 0;
+          li{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            opacity: 0.85;
+            img{
+              width: 30px;
+            }
+          }
+        }
+        .note{
+          font-size: 14px;
+          line-height: 1.5;
+          opacity: 0.6;
+        }
+      }
+      .form{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        .row{
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          width: 100%;
+        }
+        input,textarea{
+          width: 100%;
+          padding: 14px 16px;
+          border-radius: 15px;
+          border: 1px solid rgba(255, 255, 255, 0.08);
+          background: rgba(15, 16, 63, 0.6);
+          color: #fff;
+          outline: none;
+          transition: 0.3s;
+          &:focus{
+            border-color: rgba(168, 85, 247, 0.6);
+            box-shadow: 0 0 0 3px rgba(168, 85, 247, 0.15);
+          }
+        }
+        textarea{
+          resize: none;
+        }
+        button{
+          font-size: 1.2rem;
+          margin-top: 10px;
+          padding: 14px;
+          border-radius: 12px;
+          background: linear-gradient(90deg, #a855f7, #6366f1);
+          color: #fff;
+          font-weight: 600;
+          transition: 0.15s ease; 
+          border: none; 
+          cursor: pointer;
+          &:hover{
+            background: linear-gradient(90deg, #7e22ce, #4338ca);
+            transform: translateY(2px) scale(0.99);
+            box-shadow: 0 4px 10px rgba(126, 34, 206, 0.2);
+          }
+        }
+      }
+    }
+  }
+}
+
+@include laptop{
+  .contact{
+    .container{
+      max-width: 700px;
+      .card{
+        grid-template-columns: 1fr 1.2fr;
+        gap: 40px;
+        padding: 45px;
+      }
+      .form{
+        .row{
+          display: grid;
+          grid-template-columns: 1fr 1fr; 
+        }
+      }
+    }
+  }
+}

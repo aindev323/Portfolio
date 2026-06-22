@@ -1,0 +1,10 @@
+@use "./mixins" as *;
+@use "./base" as *;
+
+@use '../components/Nav/Nav.scss';
+@use '../components/Hero/Hero.scss';
+@use '../components/About/About.scss';
+@use '../components/Skills/Skills.scss';
+@use '../components/Portfolio/Portfolio.scss';
+@use '../components/Contact/Contact.scss';
+@use '../components/Footer/Footer.scss';

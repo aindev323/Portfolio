@@ -1,0 +1,44 @@
+@use "../../styles/mixins" as *;
+
+.portfolio{
+  padding-bottom: 0;
+  overflow: hidden;
+  min-height: auto;
+  width: 100%;
+  .container{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 100%; 
+     .title{
+      text-align: center;
+      span{
+        display: block;
+        margin-bottom: 10px;
+        color: #c084fc;
+        letter-spacing: 3px;
+        font-size: 14px;
+      }
+      h2{
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
+
+@include desktop {
+  .portfolio{
+    .container{
+      .title{
+        h2{
+          font-size: 4rem;
+        }
+      }
+      .portfolio-accordion{
+        width: 100%;
+        min-width: 100%;
+        flex-shrink: 0;
+      }
+    }
+  }
+}
