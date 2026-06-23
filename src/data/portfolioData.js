@@ -10,7 +10,7 @@ export const portfolioData = [
       "React Hooks 기반 상태 및 데이터 로직 재사용 구조 설계",
       "프로젝트 발표 자료(PPT) 구성 및 최종 시각 정리 담당"
     ],
-    tech: ["React", "JavaScript", "SCSS", "GitHub", "Vercel", "JSON", "Vite"],
+    tech: ["JavaScript", "React", "GitHub", "Vite", "SCSS", "Vercel", "JSON"],
     website: "https://daisomall-green-team.vercel.app",
     github: "https://github.com/aindev323/Daiso",
     iframe: "https://daisomall-green-team.vercel.app",
@@ -27,7 +27,7 @@ export const portfolioData = [
       "커스텀 Hook으로 스크롤 UI 로직 분리 및 안정화",
       "SCSS 모듈화와 CSS 변수로 재사용성과 유지보수성 향상"
     ],
-    tech: ["React", "SCSS", "JavaScript", "Vercel", "Vite"],
+    tech: ["JavaScript", "React", "GitHub", "Vite", "SCSS", "Vercel"],
     website: "https://ain-portfolio.vercel.app",
     github: "https://github.com/aindev323/Portfolio",
     iframe: "https://ain-portfolio.vercel.app",
@@ -45,7 +45,7 @@ export const portfolioData = [
       "PHP·MySQL 기반 회원 시스템과 게시판 CRUD 기능 구현",
       "다크모드 기능 구현"
     ],
-    tech: ["JavaScript", "SCSS", "PHP", "MySQL"],
+    tech: ["JavaScript", "PHP", "MySQL", "SCSS"],
     website: "https://ain1.dothome.co.kr/movies/main.html",
     github: "https://github.com/aindev323/Movies",
     iframe: "https://ain1.dothome.co.kr/movies/main.html",
@@ -63,7 +63,7 @@ export const portfolioData = [
       "SCSS 변수 및 믹스인을 활용한 스타일 모듈화",
       "로그인 및 회원가입 기능을 Firebase로 구현"
     ],
-    tech: ["React", "JavaScript", "SCSS", "Firebase"],
+    tech: ["JavaScript", "React", "Firebase", "SCSS"],
     website: "https://aindev323.github.io/Yonex/",
     github: "https://github.com/aindev323/Estee-Lauder",
     iframe: "https://aindev323.github.io/Yonex/",
