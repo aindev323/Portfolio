@@ -1,24 +1,6 @@
 export const portfolioData = [
   {
     id: 1,
-    title: "포트폴리오 사이트",
-    type: "개인 프로젝트",
-    descriptionTitle: "주요 기능 및 담당",
-    description: [
-      "React를 활용한 컴포넌트 단위의 UI 구조 설계",
-      "프로젝트 정보를 데이터로 관리하여 수정과 확장이 쉬운 포트폴리오 화면 구현",
-      "터치 기반 UX를 고려한 메뉴 토글 및 인터랙션 구현",
-      "재사용 가능한 커스텀 훅을 만들어 코드 생산성 및 유지보수성 향상"
-    ],
-    tech: ["React", "SCSS", "JavaScript", "Vercel"],
-    website: null,
-    github: null,
-    iframe: null,
-    deviceType: "pc",
-    thumbnail: "/img/esteeLauder.png"
-  },
-  {
-    id: 2,
     title: "다이소몰 모바일 퍼스트 리뉴얼",
     type: "팀 프로젝트",
     descriptionTitle: "주요 기능 및 담당",
@@ -28,12 +10,29 @@ export const portfolioData = [
       "React Hooks 기반 상태 및 데이터 로직 재사용 구조 설계",
       "프로젝트 발표 자료(PPT) 구성 및 최종 시각 정리 담당"
     ],
-    tech: ["React", "JavaScript", "SCSS", "GitHub", "Vercel", "JSON"],
+    tech: ["React", "JavaScript", "SCSS", "GitHub", "Vercel", "JSON", "Vite"],
     website: "https://daisomall-green-team.vercel.app",
-    github: null,
+    github: "https://github.com/aindev323/Daiso",
     iframe: "https://daisomall-green-team.vercel.app",
     deviceType: "mobile",
     thumbnail: "/img/daiso.png"
+  },
+  {
+    id: 2,
+    title: "포트폴리오 사이트",
+    type: "개인 프로젝트",
+    descriptionTitle: "주요 기능 및 담당",
+    description: [
+      "React 기반 데이터 중심 구조로 확장 가능한 포트폴리오 구현",
+      "커스텀 Hook으로 스크롤 UI 로직 분리 및 안정화",
+      "SCSS 모듈화와 CSS 변수로 재사용성과 유지보수성 향상"
+    ],
+    tech: ["React", "SCSS", "JavaScript", "Vercel", "Vite"],
+    website: "https://ain-portfolio.vercel.app",
+    github: "https://github.com/aindev323/Portfolio",
+    iframe: "https://ain-portfolio.vercel.app",
+    deviceType: "pc",
+    thumbnail: "/img/porfolio.png"
   },
   {
     id: 3,
@@ -41,17 +40,15 @@ export const portfolioData = [
     type: "개인 프로젝트",
     descriptionTitle: "주요 기능 및 담당",
     description: [
-      "API 연동을 통한 영화 데이터 비동기 호출 및 실시간 렌더링",
-      "PHP·MySQL 기반 회원가입 및 로그인 기능 구현",
-      "사용자 참여형 게시판 CRUD 기능 구현",
-      "카테고리별 영화 목록 슬라이드 UI 및 검색 기능 구현",
-      "다양한 디바이스 대응 반응형 웹 구조 적용",
-      "다크모드 기능을 통한 사용자 테마 환경 제공"
+      "TMDB API 기반 영화 데이터 연동 및 실시간 콘텐츠 제공 구현",
+      "검색 기능과 영화 탐색 UI 및 카테고리별 슬라이드 구조 구현",
+      "PHP·MySQL 기반 회원 시스템과 게시판 CRUD 기능 구현",
+      "다크모드 기능 구현"
     ],
     tech: ["JavaScript", "SCSS", "PHP", "MySQL"],
-    website: null,
-    github: null,
-    iframe: null,
+    website: "https://ain1.dothome.co.kr/movies/main.html",
+    github: "https://github.com/aindev323/Movies",
+    iframe: "https://ain1.dothome.co.kr/movies/main.html",
     deviceType: "pc",
     thumbnail: "/img/movies.png"
   },
@@ -67,9 +64,9 @@ export const portfolioData = [
       "로그인 및 회원가입 기능을 Firebase로 구현"
     ],
     tech: ["React", "JavaScript", "SCSS", "Firebase"],
-    website: null,
-    github: null,
-    iframe: null,
+    website: "https://aindev323.github.io/Yonex/",
+    github: "https://github.com/aindev323/Estee-Lauder",
+    iframe: "https://aindev323.github.io/Yonex/",
     deviceType: "pc",
     thumbnail: "/img/yonex.png"
   },
@@ -84,9 +81,9 @@ export const portfolioData = [
       "브랜드 컬러 기반 시각적 톤 정리 및 가독성 개선"
     ],
     tech: ["HTML", "CSS", "JavaScript", "jQuery"],
-    website: null,
-    github: null,
-    iframe: null,
+    website: "https://ain1.dothome.co.kr/mobile_ain/mobile_ain.html",
+    github: "https://github.com/aindev323/Estee-Lauder",
+    iframe: "https://ain1.dothome.co.kr/mobile_ain/mobile_ain.html",
     deviceType: "mobile",
     thumbnail: "/img/esteeLauder.png"
   }

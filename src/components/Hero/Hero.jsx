@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="text">
           <div className="badge">PORTFOLIO 2026</div>
           <h1>
-            안녕하세요.<br/>
+            안녕하세요!<br/>
             웹퍼블리셔<br/>
             성아인입니다.
           </h1>
@@ -21,7 +21,7 @@ const Hero = () => {
             새로운 기술을 학습하고 적용하는 과정에서 가장 큰 성취감을 느낍니다.
           </p>
           <div className="btns">
-            <a href="https://github.com/ain323" target="_blank" rel="noreferrer">
+            <a href="https://github.com/aindev323" target="_blank" rel="noreferrer">
             <i className="xi-github"></i>
               Github
             </a>
