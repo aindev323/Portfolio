@@ -32,7 +32,7 @@ export const portfolioData = [
     github: "https://github.com/aindev323/Portfolio",
     iframe: "https://ain-portfolio.vercel.app",
     deviceType: "pc",
-    thumbnail: "/img/porfolio.png"
+    thumbnail: "/img/portfolio.png"
   },
   {
     id: 3,
