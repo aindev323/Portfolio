@@ -13,7 +13,8 @@ const Hero = () => {
           <div className="badge">PORTFOLIO 2026</div>
           <h1>
             안녕하세요!<br/>
-            웹퍼블리셔<br/>
+            기획부터 구현까지.<br/>
+            웹과 앱을 만드는<br/>
             성아인입니다.
           </h1>
           <p>
@@ -25,7 +26,7 @@ const Hero = () => {
             <i className="xi-github"></i>
               Github
             </a>
-            <a href="#">View Resume</a>
+            <a href="resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
           </div>
         </div>
       </div>
