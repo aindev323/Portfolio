@@ -62,20 +62,21 @@ const Skills = () => {
         </ul>
         <ul className="desc">
           <li className="descTitle">UI/UX & Publishing</li>
-          <li>HTML, CSS, SCSS 기반 반응형 웹 및 크로스 브라우징 구현</li>
-          <li className="descLast">웹 표준 및 컴포넌트 단위 레이아웃 설계 경험</li>
+          <li>Figma를 활용한 UI/UX 기획 및 와이어프레임, 프로토타이핑</li>
+          <li className="descLast">HTML5, CSS3, SCSS 기반의 반응형 웹 구성 및 크로스 브라우징 대응</li>
 
-          <li className="descTitle">Interaction & Logic</li>
-          <li>React 기반 동적 UI 및 인터랙션 구현</li>
-          <li className="descLast">JavaScript 중심의 클라이언트 로직 설계</li>
+          <li className="descTitle">Frontend</li>
+          <li>React + Vite 환경의 컴포넌트 기반 UI 설계 및 동적 인터랙션 구현</li>
+          <li>TypeScript를 도입한 정적 타입 지정 및 기본 구조 설계</li>
+          <li className="descLast">JavaScript 및 jQuery를 활용한 클라이언트 기능 개발</li>
 
-          <li className="descTitle">Data & Server Link</li>
-          <li>PHP 기반 CRUD 및 API 연동 경험</li>
-          <li className="descLast">JSON 비동기 데이터 처리 및 화면 구성 경험</li>
+          <li className="descTitle">Backend</li>
+          <li>PHP, MySQL 기반의 CRUD 기능 구현 및 데이터베이스 연동</li>
+          <li className="descLast">Firebase (Authentication, Firestore)를 활용한 사용자 인증 및 데이터 관리</li>
 
-          <li className="descTitle">Devops & Deploy</li>
-          <li>Git/GitHub 협업 경험</li>
-          <li>Vercel 및 호스팅 배포 경험</li>
+          <li className="descTitle">DevOps & Deploy</li>
+          <li>Git / GitHub을 활용한 소스코드 버전 관리 및 협업</li>
+          <li className="descLast">Vercel, GitHub Pages를 통한 프론트엔드 서비스 배포</li>
         </ul>
       </div>
     </section>
