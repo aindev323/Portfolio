@@ -76,7 +76,7 @@ const Skills = () => {
 
           <li className="descTitle">DevOps & Deploy</li>
           <li>Git / GitHub을 활용한 소스코드 버전 관리 및 협업</li>
-          <li className="descLast">Vercel, GitHub Pages를 통한 프론트엔드 서비스 배포</li>
+          <li className="descLast">Vercel, GitHub Pages, Dothome을 통한 서비스 배포</li>
         </ul>
       </div>
     </section>
