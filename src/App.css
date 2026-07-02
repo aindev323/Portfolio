@@ -1,22 +1,21 @@
-/* 가장 상단 혹은 .skip-nav 전용 블록 */
 .skip-nav {
   position: fixed;
-  top: -100px; /* 초기에는 확실히 화면 밖 위로 숨김 */
+  top: -100px;
   left: 0;
   width: 100%;
-  z-index: 9999; /* Nav보다 높게 설정 */
+  z-index: 9999;
   padding: 15px 0;
   background: #b474ff;
   color: #fff;
   text-align: center;
   text-decoration: none;
-  transition: top 0.3s ease; /* 부드럽게 내려오도록 */
+  transition: top 0.3s ease;
 }
 
 .skip-nav:focus {
-  top: 0; /* 탭 키 포커스 시 등장 */
+  top: 0;
 }
-/* 메인 콘텐츠 포커스 시 outline 제거 */
+
 #main-content:focus {
   outline: none;
 }
