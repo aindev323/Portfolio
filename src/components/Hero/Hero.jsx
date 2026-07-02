@@ -13,11 +13,12 @@ const Hero = () => {
           <div className="badge">PORTFOLIO 2026</div>
           <h1>
             안녕하세요!<br/>
-            UI를 만드는 성아인입니다.
+            기획부터 배포까지,<br/>
+            준비된 신입 성아인입니다.
           </h1>
           <p>
-            사용자 경험을 고려해 인터페이스를 설계하고,<br/>
-            유지보수하기 쉬운 구조를 고민합니다.
+            사용자에게는 편안한 경험을, 동료에게는 신뢰받는 협업 파트너가 되고 싶습니다.<br/>
+            새로운 기술을 빠르게 흡수하여 팀의 프로젝트에 든든한 보탬이 되겠습니다.
           </p>
           <div className="btns">
             <a href="https://github.com/aindev323" target="_blank" rel="noreferrer">
