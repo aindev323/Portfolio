@@ -16,7 +16,7 @@ html{
 body{
   font-family: "Poppins", "Pretendard", sans-serif;
   background: #0F103F;
-  color: #fff;
+  color: #000;
   line-height: 1.5;
 }
 #root{
@@ -52,7 +52,7 @@ input,textarea{
   width: 8px;
 }
 ::-webkit-scrollbar-track{
-  background: #0F103F;
+  background: transparent; 
 }
 ::-webkit-scrollbar-thumb{
   background: #8b5cf6;
@@ -62,29 +62,35 @@ input,textarea{
   background: #a855f7;
 }
 
+h2{
+  font-size: 2.5rem;
+}
 body{
-  &::before {
-    content: "";
-    position: fixed;
-    inset: 0;
+  background:#FAFAFA;
+  color:#111827;
+  position:relative;
+  &::before{
+    content:"";
+    position:fixed;
+    inset:0;
     background:
       radial-gradient(
         circle at 10% 15%,
-        rgba(168, 85, 247, 0.15),
+        rgba(139,92,246,0.14),
         transparent 30%
       ),
       radial-gradient(
-        circle at 90% 40%,
-        rgba(99, 102, 241, 0.15),
-        transparent 35%
+        circle at 90% 30%,
+        rgba(236,72,153,0.12),
+        transparent 32%
       ),
       radial-gradient(
         circle at 30% 85%,
-        rgba(168, 85, 247, 0.12),
+        rgba(34,211,238,0.10),
         transparent 35%
       );
-    pointer-events: none;
-    z-index: -1;
+    pointer-events:none;
+    z-index:-1;
   }
 }
 .fade-in-section{
@@ -100,5 +106,8 @@ body{
 @include tablet{
   section{
     padding: 150px 8%;
+  }
+  h2{
+    font-size: 3rem;
   }
 }

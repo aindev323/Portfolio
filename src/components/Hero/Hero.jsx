@@ -21,11 +21,11 @@ const Hero = () => {
             새로운 기술을 빠르게 흡수하여 팀의 프로젝트에 든든한 보탬이 되겠습니다.
           </p>
           <div className="btns">
-            <a href="https://github.com/aindev323" target="_blank" rel="noreferrer">
+            <a href="https://github.com/aindev323" className="github" target="_blank" rel="noreferrer">
             <i className="xi-github"></i>
               Github
             </a>
-            <a href="resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
+            <a href="resume.pdf" className="resume" target="_blank" rel="noopener noreferrer">View Resume</a>
           </div>
         </div>
       </div>

@@ -19,9 +19,6 @@
         letter-spacing: 3px;
         font-size: 14px;
       }
-      h2{
-        font-size: 2.5rem;
-      }
     }
   }
 }
@@ -29,11 +26,6 @@
 @include desktop {
   .portfolio{
     .container{
-      .title{
-        h2{
-          font-size: 4rem;
-        }
-      }
       .portfolio-accordion{
         width: 100%;
         min-width: 100%;
