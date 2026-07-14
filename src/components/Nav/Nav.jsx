@@ -25,7 +25,7 @@ const Nav = () => {
     <header className={`nav ${scrolled ? "scrolled" : ""}`}>
       <nav>
         <button onClick={() => move("home")}>홈</button>
-        <button onClick={() => move("skills")}>핵심 역량</button>
+        <button onClick={() => move("skills")}>기술</button>
         <button onClick={() => move("portfolio")}>프로젝트</button>
       </nav>
     </header>
