@@ -24,8 +24,8 @@ const Portfolio = () => {
     <section id="portfolio" className={`portfolio fade-in-section ${isVisible ? "is-visible" : ""}`} ref={ref}>
       <div className="container">
         <div className="title">
-          <span>MY PROJECT</span>
-          <h2>Portfolio</h2>
+          <span>프로젝트 상세</span>
+          <h2>라이브 링크와 깃허브를 통해 세부 사항을 확인해 보세요.</h2>
         </div>
         <PortfolioAccordion
           projects={portfolioData}

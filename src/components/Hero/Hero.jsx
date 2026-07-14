@@ -13,19 +13,19 @@ const Hero = () => {
           <div className="badge">PORTFOLIO 2026</div>
           <h1>
             안녕하세요!<br/>
-            기획부터 배포까지,<br/>
-            준비된 신입 성아인입니다.
+            UI/UX Developer<br/>
+            성아인입니다.
           </h1>
           <p>
-            사용자에게는 편안한 경험을, 동료에게는 신뢰받는 협업 파트너가 되고 싶습니다.<br/>
-            새로운 기술을 빠르게 흡수하여 팀의 프로젝트에 든든한 보탬이 되겠습니다.
+            눈에 보이는 화면뿐만 아니라, 다시 쓰기 편한 코드를 위해 노력합니다.<br/>
+            팀원들과 적극적으로 소통하고, 서비스에 꼭 필요한 든든한 보탬이 되겠습니다.
           </p>
           <div className="btns">
-            <a href="https://github.com/aindev323" className="github" target="_blank" rel="noreferrer">
+            <a href="https://github.com/aindev323" target="_blank" rel="noreferrer">
             <i className="xi-github"></i>
               Github
             </a>
-            <a href="resume.pdf" className="resume" target="_blank" rel="noopener noreferrer">View Resume</a>
+            <a href="resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
           </div>
         </div>
       </div>

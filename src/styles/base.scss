@@ -63,7 +63,7 @@ input,textarea{
 }
 
 h2{
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 body{
   background:#FAFAFA;
@@ -106,8 +106,5 @@ body{
 @include tablet{
   section{
     padding: 150px 8%;
-  }
-  h2{
-    font-size: 3rem;
   }
 }

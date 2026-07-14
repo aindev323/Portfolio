@@ -5,10 +5,11 @@ export const portfolioData = [
     type: "개인 프로젝트",
     descriptionTitle: "주요 기능 및 담당",
     description: [
-      "TMDB API 기반 영화 데이터 연동 및 실시간 콘텐츠 구현",
-      "검색 기능과 영화 탐색 UI 및 카테고리별 슬라이드 구조 구현",
-      "PHP·MySQL 기반 회원 시스템과 게시판 CRUD 기능 구현",
-      "다크모드 기능 구현"
+      "• TMDB API 기반 영화 콘텐츠 연동",
+      "• 검색 기능 및 카테고리별 슬라이드 구현",
+      "• PHP, MySQL 기반 회원 시스템 구축",
+      "• 게시판 CRUD 기능 구현",
+      "• 다크모드 테마 기능 적용"
     ],
     tech: ["JavaScript", "PHP", "MySQL", "SCSS"],
     website: "https://ain1.dothome.co.kr/movies/main.html",
@@ -23,9 +24,10 @@ export const portfolioData = [
     type: "팀 프로젝트",
     descriptionTitle: "주요 기능 및 담당",
     description: [
-      "상품 검색 페이지 구현 및 데이터 기반 검색/필터링 로직 설계",
-      "JSON 기반 데이터 구조 설계 및 데이터 확장 관리",
-      "React Hooks 기반 상태 및 데이터 로직 재사용 구조 설계"
+      "• 데이터 기반 검색 및 필터링 로직 구현",
+      "• 상품 검색 페이지 구현",
+      "• JSON 기반 데이터 구조 설계 및 확장 관리",
+      "• React Hooks 기반 상태 관리 및 재사용 로직 구현"
     ],
     tech: ["JavaScript", "React", "GitHub", "Vite", "SCSS", "Vercel", "JSON"],
     website: "https://daisomall-green-team.vercel.app",
@@ -40,10 +42,10 @@ export const portfolioData = [
     type: "개인 프로젝트",
     descriptionTitle: "주요 기능 및 담당",
     description: [
-      "React 컴포넌트 기반 UI 구조 설계 및 재사용성 확보",
-      "Sticky 레이아웃 기반 스크롤 인터랙션 구현",
-      "SCSS 변수 및 믹스인을 활용한 스타일 모듈화",
-      "로그인 및 회원가입 기능을 Firebase로 구현"
+      "• React 컴포넌트 구조 설계 및 UI 재사용",
+      "• Sticky 레이아웃 스크롤 인터랙션 구현",
+      "• SCSS 변수 기반 스타일 관리",
+      "• Firebase 인증 기능 구현"
     ],
     tech: ["JavaScript", "React", "Firebase", "SCSS"],
     website: "https://aindev323.github.io/Yonex/",
@@ -58,9 +60,9 @@ export const portfolioData = [
     type: "개인 프로젝트",
     descriptionTitle: "주요 기능 및 담당",
     description: [
-      "모바일 환경에 맞춘 핵심 정보 중심의 레이아웃 구성",
-      "터치 기반 UX를 고려한 메뉴 토글 및 인터랙션 구현",
-      "브랜드 컬러 기반 시각적 톤 정리 및 가독성 개선"
+      "• 모바일 환경을 고려한 반응형 레이아웃 구성",
+      "• 터치 기반 메뉴 토글 및 인터랙션 구현",
+      "• 브랜드 컬러 기반 UI 스타일 및 가독성 개선"
     ],
     tech: ["HTML", "CSS", "JavaScript", "jQuery"],
     website: "https://ain1.dothome.co.kr/mobile_ain/mobile_ain.html",

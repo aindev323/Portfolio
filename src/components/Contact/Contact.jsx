@@ -16,11 +16,6 @@ const Contact = () => {
             <h3>Contact Info</h3>
             <ul>
               <li>
-                <img src="/img/contact.png" alt="contact" />
-                <span>010-2993-2407</span>
-              </li>
-
-              <li>
                 <img src="/img/email.png" alt="contact" />
                 <span>ain323@naver.com</span>
               </li>

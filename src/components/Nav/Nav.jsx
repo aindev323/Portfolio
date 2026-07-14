@@ -24,11 +24,9 @@ const Nav = () => {
   return (
     <header className={`nav ${scrolled ? "scrolled" : ""}`}>
       <nav>
-        <button onClick={() => move("home")}>Home</button>
-        <button onClick={() => move("about")}>About Me</button>
-        <button onClick={() => move("skills")}>Skills</button>
-        <button onClick={() => move("portfolio")}>Work</button>
-        <button onClick={() => move("contact")}>Contact</button>
+        <button onClick={() => move("home")}>홈</button>
+        <button onClick={() => move("skills")}>핵심 역량</button>
+        <button onClick={() => move("portfolio")}>프로젝트</button>
       </nav>
     </header>
   );

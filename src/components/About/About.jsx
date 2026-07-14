@@ -22,7 +22,7 @@ const About = () => {
           </div>
           <div className="name">
             <h3>성아인</h3>
-            <span>FRONTEND DEVELOPER</span>
+            <span>UI/UX Developer</span>
           </div>
           <div className="line"></div>
           <ul className="info">
@@ -33,6 +33,14 @@ const About = () => {
             <li>
               <i className="xi-calendar"></i>
               <span>91.07.24</span>
+            </li>
+            <li>
+              <i className="xi-library"></i>
+              <span>웹퍼블리셔 및 프론트엔드 개발 과정 수료</span> 
+            </li>
+            <li>
+              <i className="xi-mail"></i>
+              <span>ain323@gmail.com</span>
             </li>
           </ul>
           <div className="status">
