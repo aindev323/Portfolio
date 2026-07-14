@@ -5,8 +5,13 @@ footer{
     p{
         width: 90%;
         height: 70px;
+        margin: 0 auto;
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        gap: 15px;
+        color: #767676; 
+        font-size: 13px;
+        font-weight: 400;
     }
 }

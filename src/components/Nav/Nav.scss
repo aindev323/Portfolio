@@ -1,77 +1,67 @@
 @use "../../styles/mixins" as *;
 
-.nav{
-  position:fixed;
-  top:0;
-  left:0;
-  width:100%;
-  z-index:999;
-  display:flex;
-  justify-content:center;
-  transition:all .4s ease;
-  nav{
-    width:100%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:24px;
-    padding:22px 0;
-    transition:all .4s ease;
-    button{
-      color:#111827;
-      font-size:15px;
-      font-weight:500;
-      transition:.3s ease;
+.dot-nav{
+  display: none;
+}
+
+@include wide{
+  .dot-nav{
+    display: flex;
+    position: fixed;
+    left: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    transition: all 0.4s ease;
+    .dot-btn{
+      position: relative;
+      width: 12px;
+      height: 12px;
+      padding: 0;
+      border-radius: 999px;
+      border: 2px solid #9ca3af;
+      background-color: transparent;
+      cursor: pointer;
+      box-sizing: border-box;
+      transition: height 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+                  background-color 0.3s ease, 
+                  border-color 0.3s ease;
       &:hover{
-        color:#8b5cf6;
+        border-color: #8b5cf6;
+        background-color: rgba(139, 92, 246, 0.05);
       }
-    }
-  }
-  &.scrolled{
-    top:12px;
-    nav{
-      width:fit-content;
-      padding:16px 28px;
-      border-radius:999px;
-      background:rgba(245,247,250,.55);
-      backdrop-filter:blur(25px);
-      -webkit-backdrop-filter:blur(25px);
-      border:1px solid rgba(255,255,255,.75);
-      box-shadow:
-      0 10px 30px rgba(15,23,42,.12),
-      inset 0 1px 0 rgba(255,255,255,.8);
-    }
-  }
-}
-
-@include tablet{
-  .nav{
-    nav{
-      gap:35px;
-      button{
-        font-size:16px;
+      &.active{
+        height: 34px;
+        background-color: #8b5cf6;
+        border-color: #8b5cf6;
       }
-    }
-    &.scrolled{
-      nav{
-        padding:16px 30px;
+      .dot-tooltip{
+        position: absolute;
+        left: 24px;           
+        top: 50%;             
+        transform: translateY(-50%);
+        color: #9ca3af;   
+        font-size: 12px;  
+        font-weight: 600;
+        text-transform: uppercase; 
+        letter-spacing: 1px;       
+        white-space: nowrap;
+        transition: color 0.3s ease, 
+                    font-weight 0.2s ease, 
+                    top 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                    transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
       }
-    }
-  }
-}
-
-@include desktop{
-  .nav{
-    nav{
-      gap:50px;
-      button{
-        font-size:17px;
+      &:hover .dot-tooltip, &.active .dot-tooltip{
+        color: #111827;
       }
-    }
-    &.scrolled{
-      top:20px;
-      nav{
-        padding:18px 42px;
+      &.active .dot-tooltip{
+        font-weight: 800;
+        top: auto;            
+        bottom: -2px;        
+        transform: none;
       }
     }
   }

@@ -113,13 +113,7 @@
             }
           }
           &:last-child{
-            background:
-              linear-gradient(
-                135deg,
-                #a855f7,
-                #7c3aed
-              );
-            border:1px solid #8b5cf6;
+            background:linear-gradient(135deg,#a855f7, #7c3aed);
             color:#fff;
             box-shadow:0 4px 10px rgba(139,92,246,.18);
             &:hover{

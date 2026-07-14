@@ -13,12 +13,6 @@ html,body{
 html{
   scroll-behavior: smooth;
 }
-body{
-  font-family: "Poppins", "Pretendard", sans-serif;
-  background: #0F103F;
-  color: #000;
-  line-height: 1.5;
-}
 #root{
   width: 100%;
   overflow-x: hidden;
@@ -66,6 +60,9 @@ h2{
   font-size: 2.2rem;
 }
 body{
+  font-family: "Poppins", "Pretendard", sans-serif;
+  color: #000;
+  line-height: 1.5;
   background:#FAFAFA;
   color:#111827;
   position:relative;
