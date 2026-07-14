@@ -15,7 +15,7 @@ const About = () => {
         </div>
         <div className="about-card">
           <div className="card-top">
-            <span>PORTFOLIO ID</span>
+            <span>PROFILE</span>
           </div>
           <div className="profile">
             <i className="xi-user-o"></i>
