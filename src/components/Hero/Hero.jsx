@@ -13,7 +13,7 @@ const Hero = () => {
           <div className="badge">PORTFOLIO 2026</div>
           <h1>
             안녕하세요!<br/>
-            UI/UX Developer<br/>
+            웹퍼블리셔<br/>
             성아인입니다.
           </h1>
           <p>

@@ -22,7 +22,7 @@ const About = () => {
           </div>
           <div className="name">
             <h3>성아인</h3>
-            <span>UI/UX Developer</span>
+            <span>Web Publisher</span>
           </div>
           <div className="line"></div>
           <ul className="info">
