@@ -52,7 +52,7 @@ const Nav = () => {
     if(!target) return;
     setActiveSection(id);
     window.scrollTo({
-      top: id === "home" ? 0 : target.offsetTop - 80,
+      top: id === "home" ? 0 : target.offsetTop,
       behavior: "smooth",
     });
   };

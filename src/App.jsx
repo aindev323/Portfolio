@@ -11,15 +11,15 @@ function App() {
   return (
     <>
       <a href="#main-content" className="skip-nav">본문 바로가기</a>
-      <Nav />
+      <Nav/>
       <main id="main-content" tabIndex="-1">
-        <Hero />
-        <About />
-        <Skills />
-        <Portfolio />
-        <Contact />
+        <Hero/>
+        <About/>
+        <Skills/>
+        <Portfolio/>
+        <Contact/>
       </main>
-      <Footer />
+      <Footer/>
     </>
   );
 }
