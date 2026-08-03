@@ -1,7 +1,7 @@
 export const portfolioData = [
   {
     id: 1,
-    title: "KARMA - 한국동물구조관리협회 리뉴얼",
+    title: "한국동물구조관리협회 리뉴얼",
     type: "팀 프로젝트",
     descriptionTitle: "주요 기능 및 담당",
     description: [
