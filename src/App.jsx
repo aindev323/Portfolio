@@ -1,6 +1,5 @@
 import Nav from "./components/Nav/Nav";
 import Hero from "./components/Hero/Hero";
-import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
@@ -14,7 +13,6 @@ function App() {
       <Nav/>
       <main id="main-content" tabIndex="-1">
         <Hero/>
-        <About/>
         <Skills/>
         <Portfolio/>
         <Contact/>
