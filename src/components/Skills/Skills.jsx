@@ -39,15 +39,11 @@ const Skills = () => {
   }, []);
 
   return (
-    <section 
-      id="skills" 
-      className={`skills fade-in-section ${visibleLevels[0] ? "is-visible" : ""}`} 
-      ref={sectionRef}
-    >
+    <section id="skills" className={`skills fade-in-section ${visibleLevels[0] ? "is-visible" : ""}`} ref={sectionRef}>
       <div className="container">
         <div className="title">
           <span>핵심 역량</span>
-          <h2>다양한 환경에 대응하며, 지속해서 관리하기 쉬운 화면을 설계합니다.</h2>
+          <h2>EXPERTISE</h2>
         </div>
         <ul className="skillBox">
           {skillsList.map((skill, idx) => (
