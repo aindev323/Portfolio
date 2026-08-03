@@ -57,20 +57,20 @@ const Skills = () => {
           ))}
         </ul>
         <ul className="desc">
-          <li className="descTitle">재사용과 수정을 고려한 화면 구현</li>
-          <li>• Figma로 직접 구조를 설계하는 기획 단계부터 서비스 배포까지의 전체 과정을 주도적으로 완료했습니다.</li>
-          <li>• HTML, CSS, SCSS로 다양한 기기 해상도에 일관성 있게 대응하는 반응형 화면을 구축합니다.</li>
-          <li className="descLast">• 자주 사용되는 요소를 공통 컴포넌트로 분리하여 수정과 관리가 편리한 화면 구조를 지향합니다.</li>
+          <li className="descTitle">사용자 중심의 반응형 UI/UX 설계 및 컴포넌트 구조화</li>
+          <li>• Figma를 활용한 기획부터 서비스 배포까지의 전 주기(End-to-End) 프로젝트 경험 보유</li>
+          <li>• HTML, SCSS를 이용해 모든 기기에서 일관성 있는 반응형 화면 구축</li>
+          <li className="descLast">• 공통 컴포넌트를 통해 유지보수성과 코드 재사용성 극대화</li>
 
-          <li className="descTitle">React 기반의 기능 구현과 데이터 연동</li>
-          <li>• TMDB 오픈 API를 연동하여 외부 데이터를 호출하고, 비동기 처리를 통해 동적 화면을 구축한 경험이 있습니다.</li>
-          <li>• Firebase와 PHP, MySQL로 회원가입 및 CRUD 기능을 구현하며 백엔드 데이터의 전체 흐름을 알고 있습니다.</li>
-          <li className="descLast">• Git과 GitHub으로 버전을 관리하며, Vercel을 사용해 빌드 오류를 제어하고 최종 배포를 마쳤습니다.</li>
+          <li className="descTitle">React 기반 프론트엔드 개발 및 풀스택 데이터 연동</li>
+          <li>• 외부 API(TMDB) 비동기 연동을 통한 동적이고 직관적인 UI 구현</li>
+          <li>• Firebase, PHP, MySQL을 활용한 회원가입 및 CRUD 구현으로 백엔드 흐름 이해</li>
+          <li className="descLast">• Git/GitHub 및 Vercel을 활용한 체계적인 버전 관리와 안정적인 배포 파이프라인 구축</li>
 
-          <li className="descTitle">직군 간 협업과 업무 조율 역량</li>
-          <li>• 현재 디자이너와 Figma로 소통하며 기획 의도에 최적화된 화면을 구현하고 있습니다.</li>
-          <li>• 동일 직군 팀원들과 GitHub로 Push, Pull, Merge하며 코드를 병합하고 충돌을 해결해 왔습니다.</li>
-          <li className="descLast">• 협업 중 발생한 기술적 이슈를 조율하며, 정해진 일정 내에 최종 결과물을 도출해 냅니다.</li>
+          <li className="descTitle">유기적인 직군 간 협업 및 이슈 해결 역량</li>
+          <li>• Figma를 활용한 화면 구현 과정에서 디자이너와 원활한 소통 유지</li>
+          <li>• 팀원 간 GitHub(Push, Pull, Merge)을 통한 코드 병합 및 충돌 해결</li>
+          <li className="descLast">• 협업 과정의 기술적 이슈를 유연하게 조율하며 정해진 일정 내 결과물 도출</li>
         </ul>
       </div>
     </section>
