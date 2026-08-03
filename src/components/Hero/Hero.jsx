@@ -19,9 +19,8 @@ const Hero = () => {
             눈에 보이는 화면뿐만 아니라,<br/>
             다시 쓰기 편하고 유지보수하기 좋은 코드를 고민합니다.<br/>
           </p>
-          <div className="btns">
+          <div className="btn">
             <a href="https://github.com/aindev323" target="_blank" rel="noreferrer"><i className="xi-github"></i>Github</a>
-            <a href="resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
           </div>
         </div>
         <div className="code-card">
