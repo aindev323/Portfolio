@@ -1,22 +1,22 @@
 export const portfolioData = [
   {
     id: 1,
-    title: "영화 정보 커뮤니티 사이트",
-    type: "개인 프로젝트",
+    title: "KARMA - 한국동물구조관리협회 리뉴얼",
+    type: "팀 프로젝트",
     descriptionTitle: "주요 기능 및 담당",
     description: [
-      "• TMDB API 기반 영화 콘텐츠 연동",
-      "• 검색 기능 및 카테고리별 슬라이드 구현",
-      "• PHP, MySQL 기반 회원 시스템 구축",
-      "• 게시판 CRUD 기능 구현",
-      "• 다크모드 테마 기능 적용"
+      "• React, TypeScript 기반 반응형 웹 구현",
+      "• 동물 데이터 기반 목록 및 상세 페이지 구성",
+      "• Custom Hook을 활용한 필터 및 슬라이드 기능 구현",
+      "• Firebase Firestore 기반 입양 신청 데이터 저장",
+      "• React Router 기반 페이지 이동 및 Vercel 배포"
     ],
-    tech: ["JavaScript", "PHP", "MySQL", "SCSS"],
-    website: "https://ain1.dothome.co.kr/movies/main.html",
-    github: "https://github.com/aindev323/Movies",
-    iframe: "https://ain1.dothome.co.kr/movies/main.html",
+    tech: ["React", "TypeScript", "Firebase", "SCSS","Vercel"],
+    website: "https://karma-team.vercel.app",
+    github: "https://github.com/aindev323/KARMA",
+    iframe: "https://karma-team.vercel.app",
     deviceType: "pc",
-    thumbnail: "/img/movies.png"
+    thumbnail: "/img/karma.png"
   },
   {
     id: 2,
@@ -38,6 +38,25 @@ export const portfolioData = [
   },
   {
     id: 3,
+    title: "영화 정보 커뮤니티 사이트",
+    type: "개인 프로젝트",
+    descriptionTitle: "주요 기능 및 담당",
+    description: [
+      "• TMDB API 기반 영화 콘텐츠 연동",
+      "• 검색 기능 및 카테고리별 슬라이드 구현",
+      "• PHP, MySQL 기반 회원 시스템 구축",
+      "• 게시판 CRUD 기능 구현",
+      "• 다크모드 테마 기능 적용"
+    ],
+    tech: ["JavaScript", "PHP", "MySQL", "SCSS"],
+    website: "https://ain1.dothome.co.kr/movies/main.html",
+    github: "https://github.com/aindev323/Movies",
+    iframe: "https://ain1.dothome.co.kr/movies/main.html",
+    deviceType: "pc",
+    thumbnail: "/img/movies.png"
+  },
+  {
+    id: 4,
     title: "요넥스 PC 메인 페이지 리뉴얼",
     type: "개인 프로젝트",
     descriptionTitle: "주요 기능 및 담당",
@@ -55,7 +74,7 @@ export const portfolioData = [
     thumbnail: "/img/yonex.png"
   },
   {
-    id: 4,
+    id: 5,
     title: "에스티로더 모바일 리뉴얼",
     type: "개인 프로젝트",
     descriptionTitle: "주요 기능 및 담당",
