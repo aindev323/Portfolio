@@ -146,12 +146,12 @@
       justify-content: space-between;
       align-items: center;
       gap: 12px;
-      max-width: 960px;
+      max-width: 1050px;
       text-align: left;
     }
     .text{
       flex: 1;
-      max-width: 480px;
+      max-width: 600px;
       text-align: left;
       h1{
         font-size: 3.2rem;
@@ -174,8 +174,7 @@
 @include desktop{
   .hero{
     .container{
-      max-width: 980px;
-      gap: 16px;
+      gap: 20px;
     }
   }
 }

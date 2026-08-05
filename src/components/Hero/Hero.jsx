@@ -12,8 +12,8 @@ const Hero = () => {
           </div>
           <h1>
             안녕하세요!<br/>
-            <span>웹퍼블리셔</span><br/>
-            성아인입니다.
+            기획부터 배포까지,<br/>
+            <span>프론트엔드</span> 성아인입니다.
           </h1>
           <p>
             눈에 보이는 화면뿐만 아니라,<br/>
@@ -30,19 +30,19 @@ const Hero = () => {
             <span></span>
           </div>
           <pre>
-            <span className="purple">const</span> publisher = {"{"}{"\n"}
+            <span className="purple">const</span> aboutMe = {"{"}{"\n"}
             &nbsp;&nbsp;name :
-            <span className="blue">"성아인"</span>,{"\n"}
+            <span className="blue"> "성아인"</span>,{"\n"}
             &nbsp;&nbsp;role :
-            <span className="blue">"Web Publisher"</span>,{"\n"}
+            <span className="blue"> "Web Publisher & Front-End Developer"</span>,{"\n"}
             &nbsp;&nbsp;location :
-            <span className="blue">"서울시 마포구"</span>,{"\n"}
+            <span className="blue"> "서울시 마포구"</span>,{"\n"}
             &nbsp;&nbsp;birth :
-            <span className="blue">"91.07.24"</span>,{"\n"}
+            <span className="blue"> "91.07.24"</span>,{"\n"}
             &nbsp;&nbsp;education :
-            <span className="blue">"웹퍼블리셔 및 프론트엔드 개발 과정 수료"</span>,{"\n"}
+            <span className="blue"> "웹퍼블리셔 및 프론트엔드 개발 과정 수료"</span>,{"\n"}
             &nbsp;&nbsp;email :
-            <span className="blue">"ain323@gmail.com"</span>{"\n"}
+            <span className="blue"> "ain323@gmail.com"</span>{"\n"}
             {"}"}
           </pre>
         </div>
